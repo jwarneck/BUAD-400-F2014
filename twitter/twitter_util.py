@@ -50,7 +50,7 @@ def text(json_tweet, path = 'text'):
 		return unicode(curr_obj).encode('ascii', 'ignore')
 	except:
 		return None
-	
+
 	
 	
 	
